@@ -16,7 +16,8 @@ import { blockquote, pre, table, list } from '../../styles';
 import { useTheme } from 'emotion-theming';
 import emoji from '../../utils/emoji';
 import CheckListItem from './CheckListItem';
-import ReportingComparisonTable from './ReportingComparisonTable';
+import FeatureAsColumnComparisonTable from './FeatureAsColumnComparisonTable';
+import Contributors from './Contributors';
 
 const idFromHeader = (props) => {
   let name = props.children;
@@ -92,6 +93,7 @@ export default {
   ImageCard,
   DownloadCard,
   CheckListItem,
-  ReportingComparisonTable,
+  FeatureAsColumnComparisonTable,
+  Contributors,
   ...Highlights,
 };
